@@ -53,10 +53,10 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: #32cd32;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: #32cd32;
 }
 
 .logo {
@@ -249,7 +249,7 @@ section {
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: #32cd32;
 }
 
 .btn-color-2 {
@@ -258,7 +258,7 @@ section {
 }
 
 .btn-color-2:hover {
-  background: rgb(0, 0, 0);
+  background: #32cd32;
   border: hsl(0, 0%, 22%) 0.1rem solid;
 }
 
@@ -418,6 +418,10 @@ article .icon {
 .contact-info-container a{
   color: #fafafa;
   margin-right: 0.5em;
+}
+
+.contact-info-container a:hover{
+  color: #32cd32;
 }
 
 .contact-icon {
